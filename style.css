@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	background-color: #635646;
+}
+.hero-section{
+	background-image: url("bg.jpg");
+	background-size: cover;
+	height: 40em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#hero-heading{
+	text-transform: capitalize;
+	color: #fff;
+	font-size: 2rem;
+	background-color: #7C7161;
+	padding: 5px 10px;
+}
+#hero-para{
+	text-transform: capitalize;
+	color: #fff;
+	font-size: 2rem;
+	text-align: center;
+	background-color: #7c7161;
+	padding: 5px 10px;
+}
+.activities{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.card{
+	width: 300px;
+	height: 300px;
+	margin-left: 1em;
+	padding: 5px 10px;
+	background-color: #A09D9F;
+	margin-top: 2em;
+}
+
+#activities-heading{
+	text-align: center;
+	text-transform: capitalize;
+	color: #fff;
+	margin-top: 2em;
+}
+.image{
+	display: block;
+	width: 100px;
+	margin: 1em  auto;
+	border-radius: 50%;
+}
+#card-heading{
+	text-align: center;
+	color: #7C7161;
+}
+#card-para{
+	text-align: center;
+	color: #fff;
+	margin-top: -1em;
+	font-size: 1.1rem;
+}
+#paragraph{
+	text-align: center;
+	color: #fff;
+	margin-top: 0;
+	font-size: 1.1rem;
+}
+#para{
+	text-align: center;
+	color: #fff;
+	margin-top: .8em;
+	font-size: 1.1rem;
+}
+.cards{
+	background-color: #7C7161;
+	text-align: center;
+}
+#header{
+	text-transform: capitalize;
+	color: #fff;
+	padding-top: 2em;
+}
+#para-cards{
+	text-transform: capitalize;
+	color: #fff;
+}
+button{
+	padding: 20px 50px;
+	background-color: #635646;
+	border: none;
+	color: #fff;
+	font-size: 1rem;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
